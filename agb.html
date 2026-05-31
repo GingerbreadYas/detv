@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AGB – IPTV BesterAnbieter</title>
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="https://deiptvpro.shop/agb">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect x='15' y='25' width='70' height='50' rx='8' fill='black'/><rect x='25' y='35' width='50' height='30' fill='white'/><line x1='35' y1='20' x2='50' y2='10' stroke='black' stroke-width='4'/><line x1='65' y1='20' x2='50' y2='10' stroke='black' stroke-width='4'/></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --c-bg: #06070d; --c-bg-2: #0c0e1a;
+      --c-surface: rgba(255,255,255,0.04); --c-border: rgba(255,255,255,0.08);
+      --c-accent: #3b82f6; --c-accent-2: #6366f1;
+      --c-text: #f1f5f9; --c-text-2: #94a3b8; --c-text-3: #64748b;
+      --f-display: 'Syne', sans-serif; --f-body: 'DM Sans', sans-serif;
+      --radius: 16px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: var(--f-body); background: var(--c-bg); color: var(--c-text); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+    a { color: var(--c-accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .header { position: sticky; top: 0; z-index: 100; background: rgba(6,7,13,0.92); backdrop-filter: blur(24px); border-bottom: 1px solid var(--c-border); padding: 16px 0; }
+    .header__inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; display: flex; align-items: center; justify-content: space-between; }
+    .logo { display: flex; align-items: center; gap: 10px; font-family: var(--f-display); font-size: 18px; font-weight: 800; color: var(--c-text); text-decoration: none; }
+    .logo__icon { width: 32px; height: 32px; background: linear-gradient(135deg, var(--c-accent), var(--c-accent-2)); border-radius: 9px; display: flex; align-items: center; justify-content: center; font-size: 16px; }
+    .logo__text span { color: var(--c-accent); }
+    .back-btn { display: inline-flex; align-items: center; gap: 6px; color: var(--c-text-2); font-size: 14px; font-weight: 500; text-decoration: none; transition: color 0.2s; }
+    .back-btn:hover { color: var(--c-text); text-decoration: none; }
+    .page-wrap { max-width: 800px; margin: 0 auto; padding: 64px 24px 80px; }
+    .page-badge { display: inline-flex; align-items: center; gap: 6px; background: rgba(59,130,246,0.1); border: 1px solid rgba(59,130,246,0.2); color: #93c5fd; font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; padding: 5px 14px; border-radius: 100px; margin-bottom: 20px; }
+    .page-title { font-family: var(--f-display); font-size: clamp(32px, 5vw, 52px); font-weight: 800; line-height: 1.1; margin-bottom: 12px; }
+    .page-title span { background: linear-gradient(135deg, var(--c-accent), var(--c-accent-2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .page-meta { font-size: 14px; color: var(--c-text-3); margin-bottom: 48px; padding-bottom: 32px; border-bottom: 1px solid var(--c-border); }
+    .section-block { margin-bottom: 36px; }
+    .section-block h2 { font-family: var(--f-display); font-size: 18px; font-weight: 700; color: var(--c-text); margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid var(--c-border); }
+    .section-block h3 { font-family: var(--f-display); font-size: 15px; font-weight: 600; color: var(--c-text-2); margin: 16px 0 8px; }
+    .section-block p { font-size: 15px; color: var(--c-text-2); line-height: 1.75; margin-bottom: 10px; }
+    .section-block ul, .section-block ol { padding-left: 20px; margin-bottom: 10px; }
+    .section-block li { font-size: 15px; color: var(--c-text-2); line-height: 1.75; margin-bottom: 6px; }
+    .info-card { background: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--radius); padding: 20px 24px; margin-bottom: 12px; }
+    .info-card p { margin-bottom: 0; }
+    .footer-legal { background: var(--c-bg-2); border-top: 1px solid var(--c-border); padding: 32px 0; margin-top: 64px; }
+    .footer-legal__inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
+    .footer-legal__copy { font-size: 13px; color: var(--c-text-3); }
+    .footer-legal__links { display: flex; gap: 20px; flex-wrap: wrap; }
+    .footer-legal__links a { font-size: 13px; color: var(--c-text-3); text-decoration: none; transition: color 0.2s; }
+    .footer-legal__links a:hover { color: var(--c-text); }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header__inner">
+      <a href="/" class="logo">
+        <div class="logo__icon">▶</div>
+        <span class="logo__text">IPTV <span>Bester</span>Anbieter</span>
+      </a>
+      <a href="/" class="back-btn">← Zurück zur Startseite</a>
+    </div>
+  </header>
+
+  <div class="page-wrap">
+    <div class="page-badge">📋 Rechtliches</div>
+    <h1 class="page-title">Allgemeine <span>Geschäfts&shy;bedingungen</span></h1>
+    <p class="page-meta">Stand: Januar 2025 – IPTV BesterAnbieter</p>
+
+    <div class="section-block">
+      <h2>§ 1 Geltungsbereich</h2>
+      <p>Diese Allgemeinen Geschäftsbedingungen (AGB) gelten für alle Verträge zwischen IPTV BesterAnbieter (nachfolgend „Anbieter") und dem Kunden (nachfolgend „Kunde") über die Bereitstellung von IPTV-Streaming-Diensten über die Website deiptvpro.shop.</p>
+      <p>Abweichende Bedingungen des Kunden werden nicht anerkannt, es sei denn, der Anbieter stimmt ihrer Geltung ausdrücklich schriftlich zu.</p>
+    </div>
+
+    <div class="section-block">
+      <h2>§ 2 Vertragsgegenstand</h2>
+      <p>Der Anbieter stellt dem Kunden gegen Entgelt Zugang zu einem IPTV-Streaming-Service bereit, der Live-TV-Sender über das Internet überträgt. Der Umfang des Angebots (Senderzahl, Qualität, Laufzeit) ergibt sich aus der jeweiligen Leistungsbeschreibung auf der Website.</p>
+    </div>
+
+    <div class="section-block">
+      <h2>§ 3 Vertragsschluss</h2>
+      <p>Der Kunde gibt durch Absenden einer Bestellung ein verbindliches Angebot zum Kauf eines IPTV-Abonnements ab. Der Anbieter nimmt dieses Angebot durch Zusendung der Zugangsdaten per E-Mail oder WhatsApp an. Der Vertrag kommt mit Erhalt der Zugangsdaten zustande.</p>
+    </div>
+
+    <div class="section-block">
+      <h2>§ 4 Preise und Zahlung</h2>
+      <p>Es gelten die zum Zeitpunkt der Bestellung auf der Website angegebenen Preise. Alle Preise sind Endpreise inklusive der gesetzlichen Mehrwertsteuer.</p>
+      <p>Die Zahlung ist vor Aktivierung des Abonnements fällig. Akzeptierte Zahlungsmethoden:</p>
+      <ul>
+        <li>Banküberweisung (SEPA)</li>
+        <li>Kreditkarte</li>
+        <li>Kryptowährungen (Bitcoin, Ethereum u.a.)</li>
+      </ul>
+      <p>Es findet keine automatische Verlängerung statt. Nach Ablauf des Abonnements erlischt der Zugang automatisch.</p>
+    </div>
+
+    <div class="section-block">
+      <h2>§ 5 Leistungserbringung und Aktivierung</h2>
+      <p>Nach Zahlungseingang werden dem Kunden seine Zugangsdaten in der Regel innerhalb von 30 Minuten per E-Mail und/oder WhatsApp zugestellt. Der Dienst gilt ab Übermittlung der Zugangsdaten als aktiviert.</p>
+      <p>Technische Voraussetzungen für die Nutzung sind:</p>
+      <ul>
+        <li>Stabile Internetverbindung (min. 10 Mbit/s für Full HD, 25 Mbit/s für 4K)</li>
+        <li>Kompatibles Endgerät (Smart TV, Smartphone, Tablet, Streaming-Stick)</li>
+        <li>IPTV-App nach Anleitung des Anbieters</li>
+      </ul>
+    </div>
+
+    <div class="section-block">
+      <h2>§ 6 Nutzungsbedingungen</h2>
+      <p>Die Zugangsdaten sind persönlich und nicht übertragbar. Eine Weitergabe an Dritte ist untersagt. Das Abonnement gilt für die im Paket angegebene Anzahl simultaner Streams.</p>
+      <p>Folgende Nutzungen sind untersagt:</p>
+      <ul>
+        <li>Kommerzielle Weiterverbreitung von Inhalten</li>
+        <li>Aufzeichnung und Verbreitung von Sendeinhalten</li>
+        <li>Weitergabe von Zugangsdaten an Dritte</li>
+        <li>Nutzung für illegale Zwecke</li>
+      </ul>
+    </div>
+
+    <div class="section-block">
+      <h2>§ 7 Verfügbarkeit und Gewährleistung</h2>
+      <p>Der Anbieter strebt eine Verfügbarkeit von 99% an, kann jedoch keine ununterbrochene Verfügbarkeit garantieren. Wartungsarbeiten werden nach Möglichkeit zu nutzungsschwachen Zeiten durchgeführt.</p>
+      <p>Der Anbieter haftet nicht für Beeinträchtigungen, die auf höhere Gewalt, Netzausfälle des Internetanbieters des Kunden oder technische Probleme auf Seiten des Kunden zurückzuführen sind.</p>
+    </div>
+
+    <div class="section-block">
+      <h2>§ 8 Haftung</h2>
+      <p>Die Haftung des Anbieters ist auf vorsätzliches und grob fahrlässiges Handeln beschränkt. Eine Haftung für leichte Fahrlässigkeit ist ausgeschlossen, soweit keine wesentlichen Vertragspflichten verletzt wurden.</p>
+    </div>
+
+    <div class="section-block">
+      <h2>§ 9 Widerrufsrecht</h2>
+      <p>Verbrauchern steht grundsätzlich ein gesetzliches Widerrufsrecht zu. Durch die sofortige Bereitstellung des Dienstes nach Zahlung und die ausdrückliche Zustimmung des Kunden erlischt das Widerrufsrecht für digitale Dienste mit Beginn der Nutzung. Details entnehmen Sie der <a href="/widerrufsrecht">Widerrufsbelehrung</a>.</p>
+    </div>
+
+    <div class="section-block">
+      <h2>§ 10 Datenschutz</h2>
+      <p>Die Erhebung und Verarbeitung personenbezogener Daten erfolgt gemäß unserer <a href="/datenschutz">Datenschutzerklärung</a>.</p>
+    </div>
+
+    <div class="section-block">
+      <h2>§ 11 Schlussbestimmungen</h2>
+      <p>Es gilt das Recht der Bundesrepublik Deutschland unter Ausschluss des UN-Kaufrechts. Gerichtsstand für Kaufleute ist der Sitz des Anbieters. Sollten einzelne Bestimmungen dieser AGB unwirksam sein, bleibt die Wirksamkeit der übrigen Bestimmungen unberührt.</p>
+    </div>
+  </div>
+
+  <footer class="footer-legal">
+    <div class="footer-legal__inner">
+      <div class="footer-legal__copy">© 2025 IPTV BesterAnbieter</div>
+      <div class="footer-legal__links">
+        <a href="/impressum">Impressum</a>
+        <a href="/datenschutz">Datenschutz</a>
+        <a href="/agb">AGB</a>
+        <a href="/widerrufsrecht">Widerruf</a>
+        <a href="/kontakt">Kontakt</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

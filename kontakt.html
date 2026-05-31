@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt – IPTV BesterAnbieter</title>
+  <meta name="description" content="Kontaktieren Sie IPTV BesterAnbieter per WhatsApp oder E-Mail. Deutschsprachiger Support innerhalb von 30 Minuten.">
+  <link rel="canonical" href="https://deiptvpro.shop/kontakt">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect x='15' y='25' width='70' height='50' rx='8' fill='black'/><rect x='25' y='35' width='50' height='30' fill='white'/><line x1='35' y1='20' x2='50' y2='10' stroke='black' stroke-width='4'/><line x1='65' y1='20' x2='50' y2='10' stroke='black' stroke-width='4'/></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --c-bg: #06070d; --c-bg-2: #0c0e1a; --c-bg-3: #111422;
+      --c-surface: rgba(255,255,255,0.04); --c-surface-2: rgba(255,255,255,0.07);
+      --c-border: rgba(255,255,255,0.08); --c-border-2: rgba(255,255,255,0.14);
+      --c-accent: #3b82f6; --c-accent-2: #6366f1;
+      --c-accent-glow: rgba(59,130,246,0.35);
+      --c-green: #10b981; --c-green-glow: rgba(16,185,129,0.25);
+      --c-gold: #f59e0b; --c-gold-2: #fbbf24;
+      --c-text: #f1f5f9; --c-text-2: #94a3b8; --c-text-3: #64748b;
+      --f-display: 'Syne', sans-serif; --f-body: 'DM Sans', sans-serif;
+      --radius: 16px; --radius-lg: 24px;
+      --transition: 0.3s cubic-bezier(0.4,0,0.2,1);
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: var(--f-body); background: var(--c-bg); color: var(--c-text); line-height: 1.6; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+    a { color: inherit; text-decoration: none; }
+    .header { position: sticky; top: 0; z-index: 100; background: rgba(6,7,13,0.92); backdrop-filter: blur(24px); border-bottom: 1px solid var(--c-border); padding: 16px 0; }
+    .header__inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; display: flex; align-items: center; justify-content: space-between; }
+    .logo { display: flex; align-items: center; gap: 10px; font-family: var(--f-display); font-size: 18px; font-weight: 800; color: var(--c-text); }
+    .logo__icon { width: 32px; height: 32px; background: linear-gradient(135deg, var(--c-accent), var(--c-accent-2)); border-radius: 9px; display: flex; align-items: center; justify-content: center; font-size: 16px; }
+    .logo__text span { color: var(--c-accent); }
+    .back-btn { display: inline-flex; align-items: center; gap: 6px; color: var(--c-text-2); font-size: 14px; font-weight: 500; text-decoration: none; transition: color 0.2s; }
+    .back-btn:hover { color: var(--c-text); }
+
+    /* Hero */
+    .contact-hero { padding: 72px 0 56px; text-align: center; position: relative; overflow: hidden; }
+    .contact-hero::before { content: ''; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-60%); width: 600px; height: 400px; background: radial-gradient(ellipse, rgba(59,130,246,0.12) 0%, transparent 70%); pointer-events: none; }
+    .contact-hero__inner { position: relative; z-index: 1; max-width: 600px; margin: 0 auto; padding: 0 24px; }
+    .page-badge { display: inline-flex; align-items: center; gap: 6px; background: rgba(59,130,246,0.1); border: 1px solid rgba(59,130,246,0.2); color: #93c5fd; font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; padding: 5px 14px; border-radius: 100px; margin-bottom: 20px; }
+    .contact-hero__title { font-family: var(--f-display); font-size: clamp(32px, 5vw, 56px); font-weight: 800; line-height: 1.1; margin-bottom: 16px; }
+    .contact-hero__title span { background: linear-gradient(135deg, var(--c-accent), var(--c-accent-2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .contact-hero__sub { font-size: 17px; color: var(--c-text-2); line-height: 1.65; }
+
+    /* Cards grid */
+    .contact-grid { max-width: 900px; margin: 0 auto; padding: 0 24px 80px; display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+    @media (max-width: 640px) { .contact-grid { grid-template-columns: 1fr; } }
+
+    .contact-card { background: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--radius-lg); padding: 36px 32px; transition: var(--transition); text-align: center; }
+    .contact-card:hover { border-color: var(--c-border-2); transform: translateY(-4px); box-shadow: 0 12px 40px rgba(0,0,0,0.4); }
+    .contact-card--primary { background: linear-gradient(160deg, rgba(16,185,129,0.1) 0%, rgba(16,185,129,0.04) 100%); border-color: rgba(16,185,129,0.25); }
+    .contact-card--primary:hover { border-color: rgba(16,185,129,0.45); box-shadow: 0 12px 40px rgba(16,185,129,0.15); }
+    .contact-card__icon { font-size: 40px; margin-bottom: 16px; display: block; }
+    .contact-card__title { font-family: var(--f-display); font-size: 20px; font-weight: 700; margin-bottom: 8px; }
+    .contact-card__desc { font-size: 14px; color: var(--c-text-2); line-height: 1.65; margin-bottom: 24px; }
+    .contact-card__badge { display: inline-flex; align-items: center; gap: 6px; background: rgba(16,185,129,0.12); border: 1px solid rgba(16,185,129,0.2); color: #6ee7b7; font-size: 11px; font-weight: 700; padding: 4px 12px; border-radius: 100px; margin-bottom: 20px; }
+    .contact-card__link { display: inline-flex; align-items: center; justify-content: center; gap: 8px; width: 100%; padding: 14px 24px; border-radius: 100px; font-size: 15px; font-weight: 700; transition: var(--transition); }
+    .contact-card__link--wa { background: #25D366; color: #fff; box-shadow: 0 0 24px rgba(37,211,102,0.3); }
+    .contact-card__link--wa:hover { transform: translateY(-2px); box-shadow: 0 0 40px rgba(37,211,102,0.45); }
+    .contact-card__link--email { background: linear-gradient(135deg, var(--c-accent), var(--c-accent-2)); color: #fff; box-shadow: 0 0 24px var(--c-accent-glow); }
+    .contact-card__link--email:hover { transform: translateY(-2px); box-shadow: 0 0 40px var(--c-accent-glow); }
+
+    /* Info strip */
+    .contact-info { max-width: 900px; margin: 0 auto; padding: 0 24px 80px; }
+    .contact-info__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    @media (max-width: 640px) { .contact-info__grid { grid-template-columns: 1fr; } }
+    .info-tile { background: var(--c-surface); border: 1px solid var(--c-border); border-radius: var(--radius); padding: 24px; text-align: center; }
+    .info-tile__icon { font-size: 28px; margin-bottom: 12px; display: block; }
+    .info-tile__label { font-size: 12px; color: var(--c-text-3); font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 6px; }
+    .info-tile__value { font-family: var(--f-display); font-size: 16px; font-weight: 700; color: var(--c-accent); }
+
+    .footer-legal { background: var(--c-bg-2); border-top: 1px solid var(--c-border); padding: 32px 0; }
+    .footer-legal__inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
+    .footer-legal__copy { font-size: 13px; color: var(--c-text-3); }
+    .footer-legal__links { display: flex; gap: 20px; flex-wrap: wrap; }
+    .footer-legal__links a { font-size: 13px; color: var(--c-text-3); text-decoration: none; transition: color 0.2s; }
+    .footer-legal__links a:hover { color: var(--c-text); }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header__inner">
+      <a href="/" class="logo">
+        <div class="logo__icon">▶</div>
+        <span class="logo__text">IPTV <span>Bester</span>Anbieter</span>
+      </a>
+      <a href="/" class="back-btn">← Zurück zur Startseite</a>
+    </div>
+  </header>
+
+  <section class="contact-hero">
+    <div class="contact-hero__inner">
+      <div class="page-badge">💬 Support</div>
+      <h1 class="contact-hero__title">Wir sind <span>für Sie da</span></h1>
+      <p class="contact-hero__sub">Unser deutschsprachiges Support-Team beantwortet Ihre Fragen schnell und kompetent – per WhatsApp oder E-Mail.</p>
+    </div>
+  </section>
+
+  <div class="contact-grid">
+    <div class="contact-card contact-card--primary">
+      <span class="contact-card__icon">💬</span>
+      <h2 class="contact-card__title">WhatsApp Support</h2>
+      <div class="contact-card__badge">⚡ Antwort in ~30 Min.</div>
+      <p class="contact-card__desc">Der schnellste Weg zu uns. Schreiben Sie uns direkt auf WhatsApp – auf Deutsch, täglich erreichbar.</p>
+      <a href="https://wa.me/33756757598" class="contact-card__link contact-card__link--wa" rel="noopener" target="_blank">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+        Chat auf WhatsApp starten
+      </a>
+    </div>
+
+    <div class="contact-card">
+      <span class="contact-card__icon">✉️</span>
+      <h2 class="contact-card__title">E-Mail Support</h2>
+      <div class="contact-card__badge" style="background:rgba(59,130,246,0.1);border-color:rgba(59,130,246,0.2);color:#93c5fd;">📬 Antwort innerhalb 24h</div>
+      <p class="contact-card__desc">Für detaillierte Anfragen, Rechnungen oder rechtliche Angelegenheiten steht unser E-Mail-Support bereit.</p>
+      <a href="mailto:support@deiptvpro.shop" class="contact-card__link contact-card__link--email">
+        ✉️ E-Mail schreiben
+      </a>
+    </div>
+  </div>
+
+  <div class="contact-info">
+    <div class="contact-info__grid">
+      <div class="info-tile">
+        <span class="info-tile__icon">🕐</span>
+        <div class="info-tile__label">Support-Zeiten</div>
+        <div class="info-tile__value">Täglich 8–22 Uhr</div>
+      </div>
+      <div class="info-tile">
+        <span class="info-tile__icon">⚡</span>
+        <div class="info-tile__label">Reaktionszeit</div>
+        <div class="info-tile__value">Ø 30 Minuten</div>
+      </div>
+      <div class="info-tile">
+        <span class="info-tile__icon">🌍</span>
+        <div class="info-tile__label">Sprachen</div>
+        <div class="info-tile__value">Deutsch · English</div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer-legal">
+    <div class="footer-legal__inner">
+      <div class="footer-legal__copy">© 2025 IPTV BesterAnbieter</div>
+      <div class="footer-legal__links">
+        <a href="/impressum">Impressum</a>
+        <a href="/datenschutz">Datenschutz</a>
+        <a href="/agb">AGB</a>
+        <a href="/widerrufsrecht">Widerruf</a>
+        <a href="/kontakt">Kontakt</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
